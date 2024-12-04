@@ -1,0 +1,18 @@
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 200px;
+  padding: 5px 10px;
+}
+
+button {
+  display: block;
+  margin-bottom: 5px;
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: greenyellow;
+  border: none;
+}

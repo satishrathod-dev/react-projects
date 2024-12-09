@@ -1,5 +1,6 @@
 import "./App.css";
-import ToggleLight from "./components/ToggleLight/ToggleLight";
+import Todo from "./components/Todo.js/Todo";
+// import ToggleLight from "./components/ToggleLight/ToggleLight";
 // import Form from "./components/form/Form";
 // import InputForm from "./components/InputForm/InputForm";
 
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       {/* <Form /> */}
       {/* <InputForm /> */}
-      <ToggleLight />
+      {/* <ToggleLight /> */}
+      <Todo />
     </div>
   );
 }

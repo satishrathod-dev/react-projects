@@ -1,0 +1,42 @@
+.form-container {
+  width: 400px;
+  margin: 10px auto;
+  padding: 15px 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: pink;
+}
+
+label {
+  display: block;
+  margin: 5px 0px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+button {
+  background-color: rgb(48, 145, 224);
+  padding: 15px 20px;
+  border: none;
+  margin: 10px 150px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(151, 219, 249);
+}
+
+.field-error {
+  color: red;
+}

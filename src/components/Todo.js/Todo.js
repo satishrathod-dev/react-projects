@@ -11,8 +11,11 @@ function Todo() {
   };
 
   const handleAddTasks = (tasks) => {
-    setLists([...lists, tasks]);
-    setTasks("");
+    if (tasks === "") return alert("Please enter a task.");
+    else {
+      setLists([...lists, tasks]);
+      setTasks("");
+    }
   };
 
   const handleDeleteTasks = (index) => {
